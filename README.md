@@ -367,10 +367,6 @@ Restituisce un token per l'autenticazione del servizio esterno [Songs](#songs). 
 </tbody>
 </table>
 
-### Tests
-
-Il comando ```npm run test``` avvia il database, l'applicazione sviluppata dal candidato e verifica che l'implementazione proposta soddisfi le richieste della specifica.
-
 ### Tutti i comandi
 
 - ```npm start``` (o ```npm run start```) avvia tutti i processi dell'applicazione in dei container Docker:
@@ -379,7 +375,6 @@ Il comando ```npm run test``` avvia il database, l'applicazione sviluppata dal c
   - Il servizio esterno [Songs](#songs), in ascolto all'URL http://localhost:9009.
   - Il servizio esterno [Auth](#auth), in ascolto all'URL http://localhost:9010.
   - **Nota**: richiede ```npm install```.
-- ```npm run test```: testa l'implementazione proposta dal candidato.
 - ```npm run build```: comprime la cartella del progetto (```node_modules``` esclusi) in un archivio al percorso ```./dist/consegna.zip```. Questo archivio deve essere consegnato tramite il [form di consegna](https://docs.google.com/forms/d/e/1FAIpQLSe3D_gW8YQ4hO0WueD-kDVUsDDDeVSAdAUrZzeDYNLExiYRWA/viewform).
 
 ### FAQ
@@ -406,10 +401,6 @@ Il comando ```npm run test``` avvia il database, l'applicazione sviluppata dal c
 - **È possibile consegnare un'implementazione parziale della specifica?**<br>
   È possibile consegnare un'implementazione parziale, che sarà valutata con un punteggio inferiore.
 
-<hr>
-
-- **È possibile consegnare un'implementazione che non passa i test?**<br>
-  È possibile consegnare un'implementazione che non passa i test, che sarà valutata con un punteggio inferiore.
 
 
 
